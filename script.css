@@ -6,7 +6,6 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 body{
-    /* background-color: black; */
     background: linear-gradient(135deg, rgb(255, 183, 183), rgb(255, 0, 76));
   }
   h2{
@@ -76,7 +75,7 @@ body{
   }
   
   input:checked + label .description {
-      opacity: 1;
+      opacity: 1 !important;
       transform: translateY(0) !important;
   }
 
