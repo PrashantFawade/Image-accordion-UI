@@ -33,3 +33,42 @@ body{
    transition: .6s cubic-bezier(.28,-0.03,0,.99);
    box-shadow: 0px 10px 30px -5px rgba(82, 9, 9, 0.8);
   }
+  .row{
+    color: white;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  .icon{
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+  }
+  .description{
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   overflow: hidden;
+   height: 80px;
+   font-size: 13px;
+   opacity: 0;
+  }
+  p{
+    color: rgb(171, 121, 237);
+    padding-top: 5px;
+  }
+  h4{
+    text-transform: uppercase;
+  }
+  input{
+    display: none;
+  }
+  input:checked + label {
+      width: 600px;
+  }
+  
+  input:checked + label .description {
+      opacity: 1 !important;
+      transform: translateY(0) !important;
+  }
