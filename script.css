@@ -55,7 +55,7 @@ body{
    opacity: 0;
   }
   p{
-    color: rgb(171, 121, 237);
+    color: black;
     padding-top: 5px;
   }
   h4{
@@ -71,4 +71,16 @@ body{
   input:checked + label .description {
       opacity: 1 !important;
       transform: translateY(0) !important;
+  }
+  #one{
+    background-image: url('https://images.hdqwalls.com/download/sunrise-landscape-minimalism-5k-ex-1920x1080.jpg');
+  }
+  #two{
+      background-image: url('https://www.hdwallpapers.in/download/artistic_landscape_mountains_trees_sunset_purple_sky_background_minimalist_hd_minimalism-1280x720.jpg');
+  }
+  #three{
+      background-image: url('https://rare-gallery.com/mocahbig/391766-mountain-minimalist-scenery-digital-art-4k-pc.jpg');
+  }
+  #four{
+      background-image: url('https://images.hdqwalls.com/download/firewatch-forest-mountains-minimalism-4k-hb-2880x1800.jpg');
   }
